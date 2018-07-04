@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearInformacoesPessoais"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/fotoUsuarioImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/semfoto"
+                app:layout_gravity="center" />
+
+            <android.support.v7.widget.GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                app:layout_gravity="center_vertical|fill_horizontal"
+                app:orientation="vertical"
+                app:rowCount="2">
+
+                <Button
+                    android:id="@+id/inserirNomeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:background="@color/color_buttons"
+                    android:text="@string/inserir_nome_button"
+                    android:textColor="@color/white_color"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill_horizontal"
+                    app:layout_row="0"
+                    app:layout_rowWeight="1" />
+
+                <Button
+                    android:id="@+id/tirarFotoButton"
+                    android:layout_width="0dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/color_buttons"
+                    android:text="@string/tirar_foto_button"
+                    android:textColor="@color/white_color"
+                    app:layout_columnWeight="1"
+                    app:layout_gravity="fill_horizontal"
+                    app:layout_row="1"
+                    app:layout_rowWeight="1" />
+
+            </android.support.v7.widget.GridLayout>
+        </android.support.v7.widget.GridLayout>
+
+        <TextView
+            android:id="@+id/nomeUsuarioTextView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="0.7"
+            android:textColor="@color/text_color"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/iniciarQuizButton"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/color_buttons"
+            android:text="@string/iniciar_button"
+            android:textColor="@color/white_color" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.01">
+
+            <TextView
+                android:id="@+id/questaoInformacaoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/questao"
+                android:textColor="@color/text_color"
+                android:textSize="16sp"
+                app:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/questaoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/text_color"
+                android:textSize="14sp"
+                app:layout_gravity="center_vertical|fill_horizontal" />
+
+        </android.support.v7.widget.GridLayout>
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.18"
+            app:columnCount="2">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/respostaTextInputLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="clip_vertical"
+                app:layout_column="0"
+                app:layout_gravity="center_vertical|fill_horizontal"
+                app:layout_row="0">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/respostaTextInputEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusableInTouchMode="true"
+                    android:gravity="center_vertical"
+                    android:hint="@string/resposta"
+                    android:textColorHint="@color/text_color"
+                    app:layout_gravity="center_vertical|fill_horizontal" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/OKButton"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:background="@color/color_buttons"
+                android:text="@string/ok_button"
+                android:textColor="@color/white_color"
+                app:layout_column="1"
+                app:layout_gravity="center_vertical" />
+
+        </android.support.v7.widget.GridLayout>
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.5"
+            tools:context=".MapsActivity" />
+
+        <android.support.v7.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.09">
+
+            <TextView
+                android:id="@+id/scoreInformacaoTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                app:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/scoreTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/text_color"
+                android:textSize="18sp"
+                app:layout_gravity="center_vertical|fill_horizontal" />
+
+        </android.support.v7.widget.GridLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

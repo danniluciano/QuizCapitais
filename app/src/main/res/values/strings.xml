@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quiz Capitais</string>
+    <string name="title_activity_maps">Quiz Capitais</string>
+    <string name="inserir_nome_button">Inserir nome</string>
+    <string name="tirar_foto_button">Tirar foto</string>
+    <string name="questao">Questão:</string>
+    <string name="resposta">Resposta</string>
+    <string name="ok_button">Ok</string>
+    <string name="cancelar_button">Cancelar</string>
+    <string name="score">Score: </string>
+    <string name="iniciar_button">Iniciar</string>
+    <string name="bem_vindo">Bem-vindo</string>
+    <string name="nao_digitou_nome">Nenhum nome foi digitado</string>
+    <string name="title_alert_input">Insira seu nome: </string>
+    <string name="permissao_tirar_foto">Você precisa permitir o acesso a câmera para tirar a foto</string>
+    <string name="permissao_gps">Você precisa permitir o uso do GPS para iniciar o quiz</string>
+    <string name="gps_ok">GPS ativado, é possível iniciar o quiz"</string>
+    <string name="erro_ok_button">Você não digitou uma capital</string>
+    <string name="fim">Fim do Quiz"</string>
+    <string name="inicio">Inicio do Quiz, Boa sorte!</string>
+    <string name="resposta_errada">Resposta Incorreta: você pode tentar novamente, mas perdeu um ponto</string>
+    <string name="segunda_resposta_errada">Resposta Incorreta, </string>
+    <string name="resposta_correta">Resposta correta, pegue seus pontos</string>
+    <string name="qtde_de_pontos">Pontos: </string>
+    <string name="qtde_questoes">Acertados: </string>
+    <string name="capital">Capital: </string>
+    <string name="aviso_final">Clique na foto para finalizar</string>
+    <string name="clicar_foto">Obrigada! Inicie o quiz novamente</string>
+
+</resources>

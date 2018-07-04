@@ -1,0 +1,65 @@
+<resources>
+
+    <string name="ques0">Sou a capital do Canada"</string>
+    <string name="ques1">Sou a capital dos Estados Unidos"</string>
+    <string name="ques2">Sou a capital do Brasil"</string>
+    <string name="ques3">Sou a capital da Argentina"</string>
+    <string name="ques4">Sou a capital do Chile"</string>
+    <string name="ques5">Sou a capital da Alemanha"</string>
+    <string name="ques6">Sou a capital da Espanha"</string>
+    <string name="ques7">Sou a capital da França"</string>
+    <string name="ques8">Sou a capital da Grécia"</string>
+    <string name="ques9">Sou a capital da Dinamarca"</string>
+    <string name="ques10">Sou a capital da Itália"</string>
+    <string name="ques11">Sou a capital da Noruega"</string>
+    <string name="ques12">Sou a capital de Portugal"</string>
+    <string name="ques13">Sou a capital da Rússia"</string>
+    <string name="ques14">Sou a capital da Angola"</string>
+    <string name="ques15">Sou a capital de Camarões"</string>
+    <string name="ques16">Sou a capital de Senegal"</string>
+    <string name="ques17">Sou a capital do Egito"</string>
+    <string name="ques18">Sou a capital do Quênia"</string>
+    <string name="ques19">Sou a capital do Japão"</string>
+    <string name="ques20">Sou a capital de Israel"</string>
+    <string name="ques21">Sou a capital da China"</string>
+    <string name="ques22">Sou a capital da Coreia do Sul"</string>
+    <string name="ques23">Sou a capital da Síria"</string>
+    <string name="ques24">Sou a capital da Austrália"</string>
+    <string name="ques25">Sou a capital de Tonga"</string>
+    <string name="ques26">Sou a capital do México"</string>
+    <string name="ques27">Sou a capital do Peru"</string>
+    <string name="ques28">Sou a capital do Paraguai"</string>
+    <string name="ques29">Sou a capital do Uruguai"</string>
+
+    <string name="res0">Ottawa"</string>
+    <string name="res1">Washington"</string>
+    <string name="res2">Brasília"</string>
+    <string name="res3">Buenos Aires"</string>
+    <string name="res4">Santiago"</string>
+    <string name="res5">Berlim"</string>
+    <string name="res6">Madri"</string>
+    <string name="res7">Paris"</string>
+    <string name="res8">Atenas"</string>
+    <string name="res9">Copenhague"</string>
+    <string name="res10">Roma"</string>
+    <string name="res11">Oslo"</string>
+    <string name="res12">Lisboa"</string>
+    <string name="res13">Moscou"</string>
+    <string name="res14">Luanda"</string>
+    <string name="res15">Yaoundé"</string>
+    <string name="res16">Dakar"</string>
+    <string name="res17">Cairo"</string>
+    <string name="res18">Nairobi"</string>
+    <string name="res19">Tóquio"</string>
+    <string name="res20">Jerusalém"</string>
+    <string name="res21">Pequim"</string>
+    <string name="res22">Seul"</string>
+    <string name="res23">Damasco"</string>
+    <string name="res24">Camberra"</string>
+    <string name="res25">Nucualofa"</string>
+    <string name="res26">Cidade do México"</string>
+    <string name="res27">Lima"</string>
+    <string name="res28">Assunção"</string>
+    <string name="res29">Montevidéu"</string>
+
+</resources>
